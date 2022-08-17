@@ -143,14 +143,18 @@ function mudarStyleLetra(tecla) {
 
 function comparaListas(letra) {
     const pos = palavraSecretaSorteada.indexOf(letra);
-
+    const letraErrada = document.querySelector('#erros__computados');
+    letraErrada.innerHTML = "";
+    
     if (pos < 0) {
         tentativas--;
         carregaImagemForca();
 
+
         if (tentativas == 0) {
             abreModal("Ops!", "Você errou... A palavra secreta era <br> " + palavraSecretaSorteada);
         }
+
     } else {
         for (i = 0; i < palavraSecretaSorteada.length; i++) {
             if (palavraSecretaSorteada[i] == letra) {

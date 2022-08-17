@@ -57,6 +57,24 @@ body {
     margin-right: 2px;
 }
 
+#erros__computados {
+    display: flex;
+    height: 1.1em;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1em;
+}
+.erros {
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid #b1b1b1;
+    color: #fff;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 #teclado {
     margin-top: 30px;
 }
