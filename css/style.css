@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 
 body {
-    background: radial-gradient(rgb(40, 51, 94), rgb(29, 39, 75), rgb(0 46 74));
+    background: radial-gradient(rgb(83, 8, 124), rgb(83, 8, 124), rgb(83, 8, 124));
     background-size: 200% 200%;
     animation: colors 15s ease infinite;
     font-family: "Ubuntu", sans-serif;
 }
 
-/* @keyframes colors {
+@keyframes colors {
     0% {
         background-position: 0% 50%;
     }
@@ -19,14 +19,14 @@ body {
     100% {
         background-position: 0% 50%;
     }
-} */
+} 
 
 .container {
     display: flex;
     height: 90vh;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
@@ -64,19 +64,25 @@ body {
     flex-direction: row;
     justify-content: center;
     font-size: 1em;
+    margin-top: 10px;
 }
 .erros {
     width: 16px;
     text-align: center;
-    border-bottom: 2px solid #b1b1b1;
-    color: #fff;
+    border-bottom: 2px solid #b1b1b100;
+    color: #f2f2f24d;
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
 }
 
 #teclado {
+    display: flex;
     margin-top: 30px;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .teclas button {
@@ -85,10 +91,8 @@ body {
     margin: 2px;
     margin-bottom: 5px;
     cursor: pointer;
-    box-shadow: 0px 2px 8px dimgray;
-    border-radius: 5px;
-    border: 1px solid dimgray;
-    color: rgb(148, 0, 106);
+    border-radius: 360px;
+    border:none;
     animation: cores 5s ease-in-out infinite;
     font-family: "Ubuntu", sans-serif;
     font-weight: 900;
@@ -110,9 +114,9 @@ body {
 
 .teclas {
     display: flex;
-    align-content: center;
+    width: 85vw;
+    height: 35%;
     justify-content: center;
-    width: 100%;
 }
 
 .teclas button:disabled {
@@ -120,7 +124,7 @@ body {
 }
 
 .teclas button:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 #categoria {
@@ -135,13 +139,23 @@ body {
     display: flex;
     height: 5rem;
     width: 100%;
+    margin-top: 40px;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: #000000b0;
+}
+
+.github {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.github:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 321px) {

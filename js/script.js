@@ -137,19 +137,19 @@ function verificaLetraEscolhida(letra) {
 }
 
 function mudarStyleLetra(tecla) {
-    document.getElementById(tecla).style.background = "#C71585";
+    document.getElementById(tecla).style.background = "#6464648c";
     document.getElementById(tecla).style.color = "#FFF";
 }
 
 function comparaListas(letra) {
     const pos = palavraSecretaSorteada.indexOf(letra);
-    const letraErrada = document.querySelector('#erros__computados');
-    letraErrada.innerHTML = "";
     
+    let letraErrada = document.querySelector('#erros__computados');
+
     if (pos < 0) {
         tentativas--;
         carregaImagemForca();
-
+        letraErrada.innerHTML = letraErrada.innerHTML + "<div class='erros'>" + letra + "</div>";
 
         if (tentativas == 0) {
             abreModal("Ops!", "Você errou... A palavra secreta era <br> " + palavraSecretaSorteada);
