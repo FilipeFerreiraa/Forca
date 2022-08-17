@@ -92,6 +92,143 @@ const palavras = [
     palavra018 = {
         nome: "IONIC",
         categoria: "FRAMEWORK"
+    },
+
+    palavra019 = {
+        nome: "ABARTH",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra020 = {
+        nome: "ALFA ROMEO",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra021 = {
+        nome: "ALPINE",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra022 = {
+        nome: "ASTON MARTIN",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra023 = {
+        nome: "AUDI",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra024 = {
+        nome: "BENTLEY",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra025 = {
+        nome: "LAMBORGHINI",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra026 = {
+        nome: "FERRARI",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra027 = {
+        nome: "FORD",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra028 = {
+        nome: "FIAT",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra029 = {
+        nome: "BMW",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra030 = {
+        nome: "TOYOTA",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra031 = {
+        nome: "NISSAN",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra032 = {
+        nome: "PORSHE",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra032 = {
+        nome: "TESLA",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra033 = {
+        nome: "VOLKSWAGEN",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra034 = {
+        nome: "JAGUAR",
+        categoria: "MARCA DE CARRO"
+    },
+    palavra035 = {
+        nome: "NIKE",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra036 = {
+        nome: "ZARA",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra037 = {
+        nome: "ROLEX",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra038 = {
+        nome: "GUCCI",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra039 = {
+        nome: "CARTIER",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra040 = {
+        nome: "PUMA",
+        categoria: "MARCA DE ROUPA"
+    },
+    palavra041 = {
+        nome: "ABACAXI",
+        categoria: "FRUTA"
+    },
+    palavra042 = {
+        nome: "BANANA",
+        categoria: "FRUTA"
+    },
+    palavra043 = {
+        nome: "CAJU",
+        categoria: "FRUTA"
+    },
+    palavra044 = {
+        nome: "DAMASCO",
+        categoria: "FRUTA"
+    },
+    palavra045 = {
+        nome: "FIGO",
+        categoria: "FRUTA"
+    },
+    palavra046 = {
+        nome: "GOIABA",
+        categoria: "FRUTA"
+    },
+    palavra047 = {
+        nome: "LARANJA",
+        categoria: "FRUTA"
+    },
+    palavra048 = {
+        nome: "MELANCIA",
+        categoria: "FRUTA"
+    },
+    palavra049 = {
+        nome: "GRAVIOLA",
+        categoria: "FRUTA"
+    },
+    palavra050 = {
+        nome: "GROSELHA",
+        categoria: "FRUTA"
+    },
+    palavra051 = {
+        nome: "FRAMBOESA",
+        categoria: "FRUTA"
     }
 ]
 
